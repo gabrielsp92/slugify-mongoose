@@ -26,4 +26,4 @@ mySchema.plugin(slugify)
 There are currently a lot of plugins for mongoose that already generate slugs,
 I made this because none of them worked with the web framework [feathers](https://feathersjs.com/).
 
-This plugin was also works with [keystone](http://keystonejs.com/).
+This plugin also works with [keystone](http://keystonejs.com/).
