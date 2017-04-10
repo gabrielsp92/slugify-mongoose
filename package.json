@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Generate a unique slug for mongoose",
   "main": "index.js",
+  "engines": {
+    "node": ">= 7.4.0",
+    "npm": ">= 4.0.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ellipticaldoor/slugify-mongoose.git"
@@ -17,7 +21,7 @@
     "keystone"
   ],
   "author": "Miguel Dorta",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ellipticaldoor/slugify-mongoose/issues"
   },
