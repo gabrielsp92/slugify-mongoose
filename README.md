@@ -1,13 +1,13 @@
 # slugify-mongoose
 Generate a unique slug for mongoose.
 
-# Installation
+## Installation
 ```
 npm i --save slugify-mongoose
 ```
 
-# Usage
-```
+## Usage
+``` javascript
 const slugify = require('slugify-mongoose')
 
 const mongoose = require('mongoose')
@@ -21,7 +21,7 @@ const mySchema = new Schema({
 mySchema.plugin(slugify)
 ```
 
-# Info
+## Info
 There are currently a lot of plugins for mongoose that already generate slugs,
 I made this because none of them worked with the web framework [feathers](https://feathersjs.com/).
 
