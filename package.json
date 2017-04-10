@@ -1,0 +1,28 @@
+{
+  "name": "slugify-mongoose",
+  "version": "1.0.0",
+  "description": "Generate a unique slug for mongoose",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellipticaldoor/slugify-mongoose.git"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "slug",
+    "slugify",
+    "feathers",
+    "feathersjs",
+    "keystone"
+  ],
+  "author": "Miguel Dorta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellipticaldoor/slugify-mongoose/issues"
+  },
+  "homepage": "https://github.com/ellipticaldoor/slugify-mongoose#readme",
+  "dependencies": {
+    "slug": "^0.9.1"
+  }
+}
