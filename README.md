@@ -1,7 +1,8 @@
 # slugify-mongoose
 Generate a unique slug for mongoose.
 
-## Installation
+
+## Installation
 ```
 npm i --save slugify-mongoose
 ```
