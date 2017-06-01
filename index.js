@@ -5,7 +5,7 @@ module.exports = function(schema, options) {
 
 	schema.pre('validate', function(next) {
 		const _id = this['_id']
-		const slug = Slug(this[field])
+		const slug = Slug(this[field], { lower: true })
 		const c = this.constructor
 
 		const that = this
@@ -19,7 +19,7 @@ module.exports = function(schema, options) {
 		const data = this._update.$set
 
 		if (data.hasOwnProperty(field)) {
-			const slug = Slug(data[field])
+			const slug = Slug(data[field], { lower: true })
 			const _id = this._conditions['_id']
 
 			const that = this
