@@ -45,6 +45,6 @@ module.exports = function(schema, options) {
 		}
 
 		const that = c || this
-		that.findOne({ slug: final_slug }).then(search_slug)
+		that.findOneWithDeleted({ slug: final_slug }).then(search_slug)
 	}
 }
